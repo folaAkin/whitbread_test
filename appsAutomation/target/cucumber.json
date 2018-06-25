@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10341161330,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the Cheesessquare app category page and \"Cheesesquare\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cheesesquare",
+                  "offset": 49
+                }
+              ],
+              "location": "CheeseCategoriesStepDef.i_am_on_the_Cheesessquare_app_category_page_and_is_displayed(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Check if all the 3 categories of cheese are displayed",
+        "description": "",
+        "id": "cheese-categories;check-if-all-the-3-categories-of-cheese-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5823840949,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the below categories should be displayed",
+            "match": {
+              "location": "CheeseCategoriesStepDef.the_below_categories_should_be_displayed(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CATEGORY 1"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "CATEGORY 2"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "CATEGORY 3"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Cheese Categories",
+    "description": "",
+    "id": "cheese-categories",
+    "keyword": "Feature",
+    "uri": "features/cheeseCategories.feature"
+  }
+]
